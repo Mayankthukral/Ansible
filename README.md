@@ -62,5 +62,6 @@ ansible-playbook playbooks/site.yml --check
 
 # Running with Extra Variables
 ## This command passes an extra variable "nginx_port=8080" to the site playbook, which can be used to customize the playbook's behavior.
-### cd /path/to/your/ansible/project
+ cd /path/to/your/ansible/project
+ ```sh
 ansible-playbook playbooks/site.yml -e "nginx_port=8080"
