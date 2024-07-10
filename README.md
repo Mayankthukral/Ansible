@@ -1,5 +1,4 @@
 # Ansible Project
-================
 
 This repository contains an Ansible project demonstrating best practices for infrastructure automation.
 
