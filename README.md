@@ -46,22 +46,25 @@ ansible-playbook playbooks/site.yml
 ansible-playbook playbooks/webservers.yml
 
 # Specifying an Inventory
-## This command uses the production inventory file instead of the ### default inventory.
-cd /path/to/your/ansible/project
+## This command uses the production inventory file instead of the  default inventory.
+### cd /path/to/your/ansible/project
+```sh
 ansible-playbook -i inventories/production/hosts playbooks/site.yml
 
 # Running with Tags
 ## This command runs only the tasks tagged with "install" in the site playbook.
 ### cd /path/to/your/ansible/project
+```sh
 ansible-playbook playbooks/site.yml --tags "install"
 
 # Dry Run (Check Mode)
 ## This command performs a dry run of the site playbook, showing what changes would be made without actually applying them.
 ### cd /path/to/your/ansible/project
+```sh
 ansible-playbook playbooks/site.yml --check
 
 # Running with Extra Variables
 ## This command passes an extra variable "nginx_port=8080" to the site playbook, which can be used to customize the playbook's behavior.
- cd /path/to/your/ansible/project
+ ### cd /path/to/your/ansible/project
  ```sh
 ansible-playbook playbooks/site.yml -e "nginx_port=8080"
