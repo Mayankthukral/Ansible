@@ -1,0 +1,7 @@
+---
+# Main playbook to apply common configurations across all hosts
+
+- hosts: all
+  roles:
+    - common
+    - webserver

@@ -1,0 +1,3 @@
+# Webserver Group Variables
+---
+nginx_port: 80

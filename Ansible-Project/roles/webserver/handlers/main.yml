@@ -1,0 +1,6 @@
+# Webserver Role Handlers
+---
+- name: Restart Nginx
+  service:
+    name: nginx
+    state: restarted

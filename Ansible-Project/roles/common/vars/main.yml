@@ -1,0 +1,6 @@
+# Common Role Variables
+---
+common_packages:
+  - python3
+  - vim
+  - git

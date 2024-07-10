@@ -1,0 +1,6 @@
+# Common Role Tasks
+---
+- name: Ensure packages are up to date
+  package:
+    name: "{{ common_packages }}"
+    state: latest

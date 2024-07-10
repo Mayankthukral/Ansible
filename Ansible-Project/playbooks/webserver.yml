@@ -1,0 +1,5 @@
+# Webserver Group Playbook
+---
+- hosts: webservers
+  roles:
+    - webserver

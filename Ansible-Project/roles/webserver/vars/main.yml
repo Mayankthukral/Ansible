@@ -1,0 +1,4 @@
+# Webserver Role Variables
+---
+nginx_config_file: nginx.conf.j2
+nginx_default_html_file: index.html
